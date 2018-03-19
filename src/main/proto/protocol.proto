@@ -1,0 +1,7 @@
+option java_package = "cn.attackme.nettydemo";
+option java_outer_classname = "Protocol";
+
+message Message{
+    required int64 sessionId = 1;
+    required string content = 2;
+}
